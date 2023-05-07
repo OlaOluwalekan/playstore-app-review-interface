@@ -1,0 +1,179 @@
+.ratings {
+  padding: 20px;
+}
+
+.ratings > h3:first-child {
+  margin-bottom: -20px;
+}
+
+.ratings > h3 {
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.ratings > p {
+  font-size: 14px;
+  color: grey;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.ratings > p > span {
+  margin-left: 10px;
+  display: flex;
+}
+
+.ratings > section > section {
+  margin: 10px 0;
+  /* position: relative; */
+}
+
+.ratings > section > section > .reviewer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.ratings > section > section > .reviewer-info > .ellipses {
+  color: gray;
+  display: flex;
+  cursor: pointer;
+}
+
+.ratings > section > .pop-up {
+  position: absolute;
+  top: 30px;
+  right: 15px;
+  box-shadow: 1px 1px 1px gray;
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+  background-color: white;
+}
+
+.close-popup {
+  display: none;
+}
+
+.ratings > section > .pop-up > span {
+  line-height: 30px;
+  font-size: 14px;
+  padding: 0 10px;
+  color: gray;
+  cursor: pointer;
+}
+
+.ratings > section > .pop-up > span:first-child {
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.ratings > section > .pop-up > span > :first-child {
+  margin-right: 10px;
+}
+
+.top {
+  position: absolute;
+  top: 0;
+  /* display: none; */
+  visibility: hidden;
+}
+
+.ratings > section > .pop-up > span:hover {
+  background-color: gray;
+  color: white;
+}
+
+.ratings > section > section > .reviewer-info > .image-and-name {
+  display: flex;
+  align-items: center;
+}
+
+.ratings > section > section > .reviewer-info > .image-and-name > :first-child {
+  margin-right: 20px;
+  width: 35px;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  background-color: #eb184d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.ratings
+  > section
+  > section
+  > .reviewer-info
+  > .image-and-name
+  > :first-child
+  > img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.ratings > section > section > .rating-and-date {
+  display: flex;
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+.ratings > section > section > .rating-and-date > article {
+  margin-right: 20px;
+}
+
+.ratings > section > section > .reviewer-review {
+  font-size: 14px;
+  color: grey;
+}
+
+.ratings > .write-a-review {
+  display: flex;
+  flex-direction: column;
+}
+
+.ratings > .write-a-review > article {
+  display: none;
+  flex-direction: column;
+}
+
+.ratings > .write-a-review > .open-write {
+  display: flex;
+  flex-direction: column;
+}
+
+.ratings > .write-a-review > article > input {
+  margin: 5px 0;
+  padding: 8px;
+}
+
+.ratings > .write-a-review > article > textarea {
+  margin: 5px 0;
+}
+
+.ratings > .write-a-review > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ratings > .write-a-review > div > button {
+  color: white;
+  background-color: #14925e;
+  border: none;
+  padding: 10px 20px;
+  width: fit-content;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ratings > .write-a-review > div > button.cancel-write {
+  background-color: red;
+}
+
+.ratings > .write-a-review > article > article > .star {
+  display: inline;
+  font-size: 30px;
+  margin-right: 25px;
+  cursor: pointer;
+}
